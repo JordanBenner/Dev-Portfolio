@@ -90,7 +90,11 @@ h2, .mission {
   font-weight: 300;
   color: black;
   padding: 0 50px;
-  margin: 90px auto 70px auto;
+  margin: 90px auto 80px auto;
+}
+p, .mission {
+  font-family: 'Roboto Mono', sans-serif;
+  color: black;
 }
 
 .row3 .col-lg-6 {

@@ -1,3 +1,7 @@
+.masthead {
+  z-index: 10;
+}
+
 .intro-title {
   margin-top: 28px;
   letter-spacing: 0;
@@ -25,7 +29,7 @@ h5, .cover-heading {
   position: absolute;
   text-align: center;
   left: 200px;
-
+  top: 70px;
 
 
 }
@@ -49,10 +53,18 @@ h5, .cover-heading {
 
 .intro-content .shell {
   position: absolute;
-  top: 250px;
+  top: 180px;
   width: 100%;
   text-align: center;
   left: -220px;
+}
+
+.floaty {
+  height: 59px;
+  background-color: #ece9e1;
+  position: absolute;
+  margin: -59px 0 0 50px;
+  width: 100%;
 }
 
 .row2 .col-lg-12 {
@@ -62,14 +74,21 @@ h5, .cover-heading {
   flex-direction: column;
   height: 100vh;
   padding: 0;
+  background-color: white;
+}
+
+.row2 .col-lg-12 > div {
   background-color: #ece9e1;
+  margin: 0 0 0 50px;
+  z-index: 10;
 }
 
 h2, .mission {
+  position: relative;
   font-family: 'Roboto Mono', sans-serif;
   font-size: 38px;
   font-weight: 300;
   color: black;
   padding: 0 50px;
-  margin: auto;
+  margin: 90px auto 70px auto;
 }

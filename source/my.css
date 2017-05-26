@@ -2,7 +2,6 @@
     margin-top: 28px;
     letter-spacing: 0;
     padding-bottom: 36px;
-    max-width: 1060px;
 }
 
 .intro-content .title {
@@ -13,15 +12,46 @@
     margin: auto;
 }
 
-div {
+/*div {
     display: block;
-  }
+  }*/
 
 h1, .cover-heading {
   justify-content: flex-start;
   align-items: baseline;
 }
 
-.row1 {
+.row1 .col-lg-12 {
+  display: flex;
   max-width: 100%;
+  margin: auto;
+  flex-direction: column;
+  height: 100vh;
+  padding: 0;
+}
+
+.intro-image {
+  width: 100%;
+}
+
+.intro-content {
+  position: relative;
+}
+
+.intro-content .shell {
+  position: absolute;
+  top: 250px;
+  width:100%;
+  text-align: center;
+  left: -220px;
+}
+
+.row2 .col-lg-12 {
+  display: flex;
+  max-width: 100%;
+  margin: auto;
+  flex-direction: column;
+  height: 100vh;
+  padding: 0;
+  background-color: #ece9e1;
 }

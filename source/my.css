@@ -15,3 +15,13 @@
 
 div {
     display: block;
+  }
+
+h1, .cover-heading {
+  justify-content: flex-start;
+  align-items: baseline;
+}
+
+.row1 {
+  max-width: 100%;
+}

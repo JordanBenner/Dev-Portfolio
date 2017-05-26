@@ -1,0 +1,17 @@
+.intro-title {
+    margin-top: 28px;
+    letter-spacing: 0;
+    padding-bottom: 36px;
+    max-width: 1060px;
+}
+
+.intro-content .title {
+    color: #b3a06c;
+  }
+  .shell {
+    max-width: 1480px;
+    margin: auto;
+}
+
+div {
+    display: block;

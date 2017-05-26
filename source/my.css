@@ -1,24 +1,33 @@
 .intro-title {
-    margin-top: 28px;
-    letter-spacing: 0;
-    padding-bottom: 36px;
+  margin-top: 28px;
+  letter-spacing: 0;
+  padding-bottom: 36px;
 }
 
 .intro-content .title {
-    color: #b3a06c;
-  }
-  .shell {
-    max-width: 1480px;
-    margin: auto;
+  color: #b3a06c;
 }
 
-/*div {
-    display: block;
-  }*/
+.shell {
+  max-width: 1480px;
+  margin: auto;
+}
 
+
+}
 h1, .cover-heading {
+  position: absolute;
   justify-content: flex-start;
   align-items: baseline;
+}
+
+h5, .cover-heading {
+  position: absolute;
+  text-align: center;
+  left: 200px;
+
+
+
 }
 
 .row1 .col-lg-12 {
@@ -41,7 +50,7 @@ h1, .cover-heading {
 .intro-content .shell {
   position: absolute;
   top: 250px;
-  width:100%;
+  width: 100%;
   text-align: center;
   left: -220px;
 }
@@ -54,4 +63,13 @@ h1, .cover-heading {
   height: 100vh;
   padding: 0;
   background-color: #ece9e1;
+}
+
+h2, .mission {
+  font-family: 'Roboto Mono', sans-serif;
+  font-size: 38px;
+  font-weight: 300;
+  color: black;
+  padding: 0 50px;
+  margin: auto;
 }

@@ -39,7 +39,6 @@ h5, .cover-heading {
   max-width: 100%;
   margin: auto;
   flex-direction: column;
-  height: 100vh;
   padding: 0;
 }
 
@@ -64,7 +63,7 @@ h5, .cover-heading {
   background-color: #ece9e1;
   position: absolute;
   margin: -59px 0 0 50px;
-  width: 100%;
+  width: calc(100% - 50px);
 }
 
 .row2 .col-lg-12 {
@@ -72,7 +71,6 @@ h5, .cover-heading {
   max-width: 100%;
   margin: auto;
   flex-direction: column;
-  height: 100vh;
   padding: 0;
   background-color: white;
 }
@@ -97,6 +95,7 @@ p, .mission {
   color: black;
 }
 
-.row3 .col-lg-6 {
-
+.row3 {
+margin: 0 50px 0 0;
+background-color: #a4977d;
 }

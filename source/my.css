@@ -30,8 +30,6 @@ h5, .cover-heading {
   text-align: center;
   left: 200px;
   top: 70px;
-
-
 }
 
 .row1 .col-lg-12 {
@@ -100,8 +98,14 @@ margin: 0 50px 0 0;
 background-color: #a4977d;
 }
 
-.col-lg-6 {
+.row4 .col-lg-6 > div {
     background-color: #ece9e1;
     margin: 0 0 0 50px;
+}
 
+.row4 .col-lg-6 {
+  display: flex;
+  max-width: 100%;
+  flex-direction: column;
+  padding: 0;
 }

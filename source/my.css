@@ -3,7 +3,8 @@
 }
 
 .intro-title {
-  margin-top: 28px;
+  margin-top: 113px;
+  margin-left: 150px;
   letter-spacing: 0;
   padding-bottom: 36px;
 }
@@ -11,13 +12,13 @@
 .intro-title strong {
     display: block;
 }
-
 @media (max-width: 1540px){
 h1 {
     font-size: 55px;
 }
 }
 h1 {
+  font-size: 70px;
   font-weight: 100;
   letter-spacing: 0;
   padding-bottom: 36px;
@@ -29,10 +30,11 @@ h1 {
 }
 .intro-entry {
   color: #d6d1d1;
-    font-size: 14px;
+    font-size: 20px;
     line-height: 2.14;
     letter-spacing: .02em;
-    margin-left: -400px;
+    margin-left: 150px;
+    margin-top: 65px;
 
 }
 
@@ -71,8 +73,10 @@ h1, .cover-heading {
   align-items: baseline;
 }
 h5, .cover-heading {
+  margin-top: 100px;
   position: absolute;
   text-align: center;
+  font-size: 25px;
   left: 200px;
   top: 70px;
 }
@@ -143,14 +147,16 @@ letter-spacing: .02em;
   z-index: 10;
 }
 .row5 .col-lg-12>div {
-  background-color: #ece9e1;
+  background-color: #a4977d;;
   margin: 0 50px 0 0;
   z-index: 10;
 }
 .row5 h2 {
   margin: 0;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
-h2, .mission {
+h2, .section-head {
   position: relative;
   font-family: 'Roboto Mono', sans-serif;
   font-size: 38px;
@@ -159,16 +165,17 @@ h2, .mission {
   padding: 0 50px;
   margin: 90px auto 80px auto;
 }
-p, .mission {
+p, .section-head {
   font-family: 'Roboto Mono', sans-serif;
   color: black;
+  margin-bottom: 100px;
 }
 .row3 {
   margin: 0 50px 0 0;
   background-color: #a4977d;
 }
 .row4 .col-lg-6>div {
-  background-color: #ece9e1;
+
   margin: 0 0 0 50px;
 }
 .row4 .col-lg-6 {
@@ -176,6 +183,7 @@ p, .mission {
   max-width: 100%;
   flex-direction: column;
   padding: 0;
+
 }
 /*the back ground color on header when scrolling*/
 .header .logo {
@@ -185,6 +193,12 @@ p, .mission {
     width: 76px;
     height: 47px;
   }
+
+  .header-compact.transparent .logo {
+      width: 152px;
+      height: 94px;
+    }
+
 .logo{
 display: inline-block;
 vertical-align: middle;
@@ -283,5 +297,5 @@ background-size: contain;
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    transition: background .3s,color .3s,border-color .3s;
+    transition: background 1s,color 1s,border-color 1s;
 }

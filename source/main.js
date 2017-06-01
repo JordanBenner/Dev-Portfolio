@@ -20,6 +20,8 @@ $(window).scroll(function (event) {
 		$(".intro-entry").typed({
 			strings: ["Love building things.", "Aviation Enthusiast."],
 			typeSpeed: 0,
-      loop: true
+      loop: true,
+      showCursor: true,
+      cursorChar: "|",
 		});
 	});

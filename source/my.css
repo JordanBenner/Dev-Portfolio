@@ -168,11 +168,20 @@ h2, .section-head {
 p, .section-head {
   font-family: 'Roboto Mono', sans-serif;
   color: black;
-  margin-bottom: 100px;
+  margin-bottom: 110px;
 }
 .row3 {
   margin: 0 50px 0 0;
   background-color: #a4977d;
+  z-index: 2;
+}
+.floaty2 {
+  height: 59px;
+  background-color: #a4977d;
+  position: absolute;
+  margin: -59px 0 0 0px;
+  width: calc(100% - 50px);
+  z-index: 11;
 }
 .row4 .col-lg-6>div {
 

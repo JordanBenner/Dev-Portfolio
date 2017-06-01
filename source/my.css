@@ -42,6 +42,11 @@ h5, .cover-heading {
 
 .intro-image {
   width: 100%;
+  background-size: cover;
+  min-height: 1000px;
+  height: calc(100vh + 100px);
+  background-position: center, center;
+  background-repeat: no-repeat;
 }
 
 .intro-content {

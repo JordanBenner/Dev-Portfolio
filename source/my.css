@@ -27,6 +27,13 @@ h1 {
 .intro-content .title {
   color: #b3a06c;
 }
+.intro-entry {
+  color: #d6d1d1;
+    font-size: 14px;
+    line-height: 2.14;
+    letter-spacing: .02em;
+
+}
 
 .shell {
   max-width: 1480px;

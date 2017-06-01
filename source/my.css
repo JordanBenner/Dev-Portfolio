@@ -32,7 +32,30 @@ h1 {
     font-size: 14px;
     line-height: 2.14;
     letter-spacing: .02em;
+    margin-left: -400px;
 
+}
+
+.typed-cursor{
+	opacity: 1;
+	-webkit-animation: blink 0.7s infinite;
+	-moz-animation: blink 0.7s infinite;
+	animation: blink 0.7s infinite;
+}
+@keyframes blink{
+	0% { opacity:1; }
+	50% { opacity:0; }
+	100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+	0% { opacity:1; }
+	50% { opacity:0; }
+	100% { opacity:1; }
+}
+@-moz-keyframes blink{
+	0% { opacity:1; }
+	50% { opacity:0; }
+	100% { opacity:1; }
 }
 
 .shell {
@@ -232,4 +255,33 @@ background-size: contain;
   width: 20px;
   background: #303030;
   transition: top .2s .25s, transform .2s 0s, width .2s 0s;
+}
+
+.btn-default-lg {
+    font-weight: 700;
+    height: 46px;
+    padding: 0 25px;
+    line-height: 40px;
+  }
+
+  .btn-default-alt {
+    color: #fff;
+  }
+
+  .btn {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    height: 45px;
+    padding: 0 20px;
+    white-space: nowrap;
+    border: 3px solid #b3a06c;
+    line-height: 39px;
+    font-family: 'Roboto Mono',sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    transition: background .3s,color .3s,border-color .3s;
 }

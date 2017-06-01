@@ -9,3 +9,17 @@ $(window).scroll(function (event) {
   }
 });
 // header about me text//
+// document.addEventListener("DOMContentLoaded", function(){
+// 		Typed.new(".element", {
+// 			strings: ["First sentence.", "Second sentence."],
+// 			typeSpeed: 0
+// 		});
+// 	});
+
+  $(function(){
+		$(".intro-entry").typed({
+			strings: ["Love building things.", "Aviation Enthusiast."],
+			typeSpeed: 0,
+      loop: true
+		});
+	});

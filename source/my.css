@@ -54,8 +54,6 @@ h1 {
 
 .typed-cursor {
   opacity: 1;
-  -webkit-animation: blink 0.7s infinite;
-  -moz-animation: blink 0.7s infinite;
   animation: blink 0.7s infinite;
 }
 
@@ -114,6 +112,7 @@ h5, .cover-heading {
   font-size: 25px;
   left: 200px;
   top: 70px;
+  color: #a4977d;
 }
 .row1 .col-lg-12 {
   display: flex;
@@ -407,7 +406,7 @@ p, .section-head {
 }
 
 p {
-  margin-bottom: 6em;
+  margin-bottom: 9em;
 }
 
 h3 {

@@ -534,6 +534,20 @@ a {
   .sidebar-actions {
     margin-bottom: 29px;
 }
+.sidebar-actions a {
+    display: inline-block;
+    padding: 5px;
+    margin-left: -5px;
+    font-size: 0;
+    line-height: 0;
+    transition: transform .3s;
+}
+.sidebar-actions a:hover {
+    transform: rotate(90deg);
+}
+a:hover {
+    text-decoration: underline;
+}
 
 .sidebar-visible .sidebar {
     z-index: 11;

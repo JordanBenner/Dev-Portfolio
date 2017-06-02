@@ -188,6 +188,15 @@ h5, .cover-heading {
   width: calc(100% - 50px);
   z-index: 11;
 }
+
+.row7 {
+  display: flex;
+  max-width: 100%;
+  margin: auto;
+  flex-direction: column;
+  padding: 0;
+  background-color: #a4977d;
+}
 h2, .section-head {
   position: relative;
   font-family: 'Roboto Mono', sans-serif;
@@ -501,13 +510,18 @@ h3 {
 }
 
 *  {
-  
+
     margin: 0;
     outline: 0;
     box-sizing: border-box;
 }
 
 /*side bar menu*/
+.sidebar a {
+  padding: 20px 0;
+  display: block;
+}
+
 .sidebar {
   background-color: black;
   position: absolute;
@@ -564,4 +578,13 @@ a:hover {
     z-index: 11;
     opacity: 1;
     visibility: visible;
+  }
+
+  .nav li{
+    border-bottom: 1px solid #262626;
+    transition: border-color .3s;
+  }
+
+  .nav-close {
+    margin-left: 16px;
   }

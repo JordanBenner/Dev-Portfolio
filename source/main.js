@@ -25,3 +25,14 @@ $(window).scroll(function (event) {
       cursorChar: "|",
 		});
 	});
+
+// sidebar//
+$('a.nav-trigger').click(function (event) {
+  event.preventDefault();
+  $('.sidebar').css('right', 0);
+});
+
+$('a.nav-close').click(function (event) {
+  event.preventDefault();
+  $('.sidebar').css('right', '-300px');
+});

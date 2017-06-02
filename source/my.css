@@ -194,6 +194,14 @@ p, .section-head {
   padding: 0;
 
 }
+
+.floaty3 {
+  height: 59px;
+  background-color: #ece9e1;
+  position: absolute;
+  margin: -59px 0 0 50px;
+  width: calc(100% - 50px);
+}
 /*the back ground color on header when scrolling*/
 .header .logo {
     float: left;

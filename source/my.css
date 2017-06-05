@@ -36,7 +36,7 @@ h1 {
   font-size: 20px;
   line-height: 2.14;
   letter-spacing: .02em;
-  margin-left: 150px;
+  margin-left: 200px;
   margin-top: 400px;
 }
 
@@ -648,4 +648,8 @@ ul.sidenav li {
     margin: 0;
     outline: 0;
     box-sizing: border-box;
+}
+
+.widget~.widget-socials {
+    border: none;
 }

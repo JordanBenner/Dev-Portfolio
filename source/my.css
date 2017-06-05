@@ -107,7 +107,7 @@ h1 {
 .row7 {
   display: flex;
   max-width: 100%;
-  margin: 550px auto 0 auto;
+  margin: 570px auto 0 auto;
   flex-direction: column;
   padding: 90px 0 0 0;
   background-color: #a4977d;
@@ -197,7 +197,19 @@ h5, .cover-heading {
   background-color: #ece9e1;
   margin: 0 0 0 50px;
   z-index: 10;
+  padding-bottom: 90px
 }
+
+@media (max-width: 768px) {
+  .row2 .col-lg-12>div, .row4>div {
+    margin-left: 0;
+  }
+
+  .floaty {
+    display: none;
+  }
+}
+
 .row5 .col-lg-12>div {
   background-color: #a4977d;
   ;
@@ -239,6 +251,17 @@ p, .section-head {
   margin: 0 50px 0 0;
   background-color: #a4977d;
   z-index: 2;
+  padding: 88px 6px;
+}
+
+@media (max-width: 768px) {
+  .row3 {
+    margin-left: 0;
+  }
+
+
+}
+
 }
 .floaty2 {
   height: 59px;
@@ -455,17 +478,20 @@ h3 {
 .animated {
   transition: transform .6s ease-in-out, opacity .6s ease-in-out, visibility .6s ease-in-out;
 }
-@media (min-width: 1541px) {
-  .service-inner {
-    padding: 62px 60px 71px;
-  }
-}
 .service-inner {
   min-height: 611px;
   background: #ece9e1;
   height: 100%;
   margin-bottom: 50px;
+  padding: 10px;
 }
+
+@media (min-width: 1541px) {
+  .service-inner {
+    padding: 20px 30px;
+  }
+}
+
 .extended {
   position: relative;
 }
@@ -547,6 +573,15 @@ h3 {
 }
 
 /*side bar menu*/
+.sidebar-outer {
+  position: fixed;
+  z-index: 100;
+  background-color: rgba(0, 0, 0, .7);
+  width: 100vw;
+  height: 100vh;
+  display: none;
+}
+
 .sidebar a {
   padding: 20px 0;
   display: block;
@@ -555,7 +590,7 @@ h3 {
 .sidebar {
   background-color: black;
   position: absolute;
-  z-index: 100;
+  z-index: 101;
   right: -300px;
   top: 0;
   width: 300px;
@@ -623,6 +658,21 @@ ul.sidenav li {
   text-align: left;
   padding: 20px 20px 0 0;
 
+}
+
+.socials ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.socials ul li {
+  padding: 0 10px
+}
+
+.nav {
+  flex-direction: column;
 }
 
   .nav li{

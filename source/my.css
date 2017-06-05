@@ -272,6 +272,7 @@ p, .section-head {
 .header-compact .logo {
   width: 76px;
   height: 47px;
+  display: flex;
 }
 .header-compact.transparent .logo {
   width: 152px;
@@ -637,3 +638,14 @@ ul.sidenav li {
   .nav-close {
     margin-left: 16px;
   }
+
+  .socials-label {
+    font-family: 'Roboto Mono',sans-serif;
+    text-transform: uppercase;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}

@@ -48,3 +48,11 @@ $('a.nav-close').click(function (event) {
   event.preventDefault();
   close_sidebar();
 });
+// experience selector
+function show_slide (event, slide) {
+  event.preventDefault();
+  $('.slide').css('display', 'none');
+  setTimeout(function () {
+    $('.slide'+ slide).css('display', 'block');
+  });
+}

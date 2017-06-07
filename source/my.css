@@ -713,6 +713,17 @@ ul.sidenav li:  {
     box-sizing: border-box;
 }
 
+.socials-label-bottom{
+  font-family: 'Roboto Mono',sans-serif;
+  text-transform: uppercase;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
 .widget~.widget-socials {
     border: none;
 }

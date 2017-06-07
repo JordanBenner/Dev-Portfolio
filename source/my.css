@@ -866,3 +866,14 @@ ul: last-child{
   display: block;
   height: 395px;
 }
+
+/*.parrallax {
+  background-image: url('/static/footer_img.jpg');
+   Full Height
+  height: 100%;
+  Create the scrolling effect
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}*/

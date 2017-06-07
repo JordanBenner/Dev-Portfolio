@@ -52,6 +52,10 @@ $('a.nav-close').click(function (event) {
 function show_slide (event, slide) {
   event.preventDefault();
   $('.slide').css('display', 'none');
+  var offset = $('.slider-paging-current' + slide).offset();
+  console.log(offset);
+  var left = offset.left - 80;
+  $('.slider-paging-moving').css('left', left + 'px');
   setTimeout(function () {
     $('.slide'+ slide).css('display', 'block');
   });

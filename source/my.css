@@ -137,7 +137,7 @@ h1 {
   display: flex;
   background-color:  #a4977d;
   margin-left: 50px;
-  z-index: 20px;
+  z-index: 20;
 }
 
 h1, .cover-heading {
@@ -753,7 +753,7 @@ img{
 .slider-benefits .slider-paging {
     position: relative;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 .slider-benefits .slider-paging-inner {
     list-style: none outside none;
@@ -764,7 +764,7 @@ img{
     display: block;
     width: 76px;
     height: 76px;
-    /*border: 3px solid #f4f0e9;*/
+    margin: 0 20px;
     transition: left .3s;
 }
 
@@ -775,7 +775,7 @@ img{
 .slider-paging-moving {
     border: 3px solid #f4f0e9;
     position: absolute;
-    left: 108px;
+    left: 79px;
 }
 
 .slider .slider-clip {
@@ -819,13 +819,13 @@ img{
     transition-timing-function: ease-in-out;
   }
   .section-benefits .section-content h3 {
-    margin: -19px 0 -35px;
+    margin: 0px 0 0px;
     color: #f4f0e9;
 }
 h3 {
     font-size: 35px;
     line-height: 1.43;
-    margin: -70px 0 50px;
+    margin: 0px 0 50px;
 }
 .section-benefits .section-content p {
     margin-bottom: 26px;
@@ -859,6 +859,8 @@ ul: last-child{
 }
 .row8-image{
   margin-top: 112px;
+  width: 100%;
+  padding-bottom: 30px
 }
 
 .row9 .row{
@@ -867,13 +869,15 @@ ul: last-child{
   height: 395px;
 }
 
-/*.parrallax {
-  background-image: url('/static/footer_img.jpg');
-   Full Height
-  height: 100%;
-  Create the scrolling effect
+.parrallax {
+  background-image: url('../images/footer_img.jpg');
+  height: 395px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}*/
+}
+
+h3, .footer{
+  color: #ece9e1;
+}

@@ -3,12 +3,12 @@
   <defs>
     <style id="bx-google-fonts">@import url(https://fonts.googleapis.com/css?family=Roboto:100,300,500,700,900,100italic,300italic,400,400italic,500italic,700italic,900italic);</style>
   </defs>
-  <g id="icomoon-ignore" transform="matrix(1, 0, 0, 1, -301.885956, -261.991486)"/>
-  <path fill="#b2a16d" d="M -301.886 -261.991 L -256.375 -261.991 L -256.375 762.009 L -301.886 762.009 L -301.886 -261.991 Z"/>
-  <path fill="#b2a16d" d="M 676.603 416.125 L 722.114 416.125 L 722.114 762.009 L 676.603 762.009 L 676.603 416.125 Z"/>
-  <path fill="#b2a16d" d="M 676.569 -261.991 L 722.114 -261.991 L 722.114 416.905 L 676.569 416.905 L 676.569 -261.991 Z"/>
-  <path fill="#b2a16d" d="M 722.097 -262.008 L 722.097 -216.497 L -301.903 -216.497 L -301.903 -262.008 L 722.097 -262.008 Z"/>
-  <path fill="#b2a16d" d="M 722.1 716.484 L 722.1 761.995 L -301.9 761.995 L -301.9 716.484 L 722.1 716.484 Z"/>
-  <text x="-163.645" y="546.072" style="fill: rgb(255, 255, 255); font-size: 250px; white-space: pre;">Benner</text>
-  <text x="-172.781" y="139.549" style="fill: rgb(255, 255, 255); font-size: 250px; white-space: pre;">Jordan</text>
+  <g id="icomoon-ignore" transform="matrix(1, 0, 0, 1, -261.991455, -261.991974)"/>
+  <path fill="#b2a16d" d="M 9.782 9.783 L 31.135 9.783 L 31.135 490.225 L 9.782 490.225 L 9.782 9.783 Z"/>
+  <path fill="#b2a16d" d="M 468.872 327.943 L 490.226 327.943 L 490.226 490.225 L 468.872 490.225 L 468.872 327.943 Z"/>
+  <path fill="#b2a16d" d="M 468.857 9.783 L 490.226 9.783 L 490.226 328.31 L 468.857 328.31 L 468.857 9.783 Z"/>
+  <path fill="#b2a16d" d="M 490.218 9.775 L 490.218 31.129 L 9.774 31.129 L 9.774 9.775 L 490.218 9.775 Z"/>
+  <path fill="#b2a16d" d="M 490.219 468.866 L 490.219 490.22 L 9.775 490.22 L 9.775 468.866 L 490.219 468.866 Z"/>
+  <text x="74.643" y="388.911" style="fill: rgb(255, 255, 255); font-size: 117.3px; white-space: pre;">Benner</text>
+  <text x="70.355" y="198.178" style="fill: rgb(255, 255, 255); font-size: 117.3px; white-space: pre;">Jordan</text>
 </svg>

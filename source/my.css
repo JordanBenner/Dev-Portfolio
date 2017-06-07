@@ -140,6 +140,15 @@ h1 {
   z-index: 20;
 }
 
+@media (max-width: 576px){
+.row8 .row{
+  margin-left: : 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+}
+}
+
+
 h1, .cover-heading {
   position: absolute;
   justify-content: flex-start;
@@ -229,7 +238,7 @@ h1, .cover-heading {
 }
 
 /*@media (max-width: 768px) {
-  .row5 .col-lg-12>div {
+  .row5 .col-lg-12{
     margin-left: 0;
     margin-right: 0;
   }*/

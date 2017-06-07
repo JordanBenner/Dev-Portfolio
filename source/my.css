@@ -878,6 +878,7 @@ ul: last-child{
   background-size: cover;
 }
 
-h3, .footer{
+ .footer{
   color: #ece9e1;
+  padding-top: 136px;
 }

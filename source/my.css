@@ -227,6 +227,12 @@ h1, .cover-heading {
   margin: 0 50px 0 0;
   z-index: 10;
 }
+
+/*@media (max-width: 768px) {
+  .row5 .col-lg-12>div {
+    margin-left: 0;
+    margin-right: 0;
+  }*/
 .row5 h2 {
   margin: 0;
   margin-top: 100px;
@@ -276,6 +282,7 @@ p, .section-head {
 @media (max-width: 768px) {
   .row3 {
     margin-left: 0;
+    margin-right: 0;
   }
 
 

@@ -51,12 +51,16 @@ $('a.nav-close').click(function (event) {
 // experience selector
 function show_slide (event, slide) {
   event.preventDefault();
-  $('.slide').css('display', 'none');
-  var offset = $('.slider-paging-current' + slide).offset();
-  console.log(offset);
-  var left = offset.left - 164;
-  $('.slider-paging-moving').css('left', left + 'px');
+  $('.slides .slide').css('display', 'none');
+  var p = $('.slide-nav ' + slide).position();
+  console.log(p);
+  $('.slide-nav .moving').css('left', p.left + 'px');
   setTimeout(function () {
-    $('.slide'+ slide).css('display', 'block');
+    $('.slides '+ slide).css('display', 'block');
   });
+}
+
+function show_code (event) {
+  event.preventDefault();
+  $('.code-cover').css('display', 'none');
 }

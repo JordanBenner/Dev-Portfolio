@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
   <meta name="description" content="">
   <meta name="author" content="">
@@ -181,14 +181,16 @@
             <div class="row3 row" id="projects">
               <div class="col-lg-6 col-md-12">
 
-                <a href="http://www.jordan-benner.com/bj-cardgame-portfolio/">
-                  <img src='/images/pr1.png' />
+                <a href="http://www.jordan-benner.com/bj-cardgame-portfolio/" class="blackjack">
+                  <span><span>Play Demo</span></span>
                 </a>
 
               </div>
               <div class="col-lg-6 col-md-12">
-                <iframe height='400' scrolling='no' title='PjwBRB' src='//codepen.io/JordanBenner/embed/PjwBRB/?height=400&theme-id=0&default-tab=js&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: calc(100% - 40px);'>See the Pen <a href='https://codepen.io/JordanBenner/pen/PjwBRB/'>PjwBRB</a> by Jordan Benner (<a href='https://codepen.io/JordanBenner'>@JordanBenner</a>) on <a href='https://codepen.io'>CodePen</a>.
- </iframe>
+                <div class='code-cover'>
+                  <a href="" onclick="show_code(event)">See Code</a>
+                </div>
+                <iframe height='400' scrolling='no' title='PjwBRB' src='//codepen.io/JordanBenner/embed/PjwBRB/?height=400&theme-id=0&default-tab=js&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: calc(100% - 40px);'>See the Pen <a href='https://codepen.io/JordanBenner/pen/PjwBRB/'>PjwBRB</a> by Jordan Benner (<a href='https://codepen.io/JordanBenner'>@JordanBenner</a>) on <a href='https://codepen.io'>CodePen</a>.</iframe>
               </div>
 
             </div>
@@ -283,7 +285,93 @@
                 </div>
               </div>
             </div>
-            <div class="row8 row" id="experience">
+            <div class="row8a row">
+              <div class="col-lg-12">
+                <h5 class="title">Experience</h5>
+                <div class="slide-nav-wrapper">
+                  <div class="slide-nav">
+                  <span class="moving"></span>
+                  <a class="slide slide1" href="" onclick="show_slide(event, '.slide1')">
+                    01
+                  </a>
+                  <a class="slide slide2" href="" onclick="show_slide(event, '.slide2')">
+                    02
+                  </a>
+                  <a class="slide slide3" href="" onclick="show_slide(event, '.slide3')">
+                    03
+                  </a>
+                  <a class="slide slide4" href="" onclick="show_slide(event, '.slide4')">
+                    04
+                </div>
+                </div>
+                <ul class="slides">
+                  <li class="slide slide1">
+                    <img src='/images/project.jpeg' class="row8-image" style="width: 50%"/>
+                    <h3>Growth Property Investors</h3>
+
+                    <p>Some Content</p>
+
+                    <ul class="list-dashes">
+                      <li></li>
+
+                      <li></li>
+
+                      <li></li>
+                    </ul>
+                    <!-- /.list-dashes -->
+                  </li>
+                  <!-- /.slide -->
+
+                  <li class="slide slide2">
+                    <h3>TMC Transportation</h3>
+
+                    <p>Some Content</p>
+
+                    <ul class="list-dashes">
+                      <li></li>
+
+                      <li></li>
+
+                      <li></li>
+                    </ul>
+                    <!-- /.list-dashes -->
+                  </li>
+                  <!-- /.slide -->
+
+                  <li class="slide slide3">
+                    <h3>Global Drilling Support</h3>
+
+                    <p>Some Content</p>
+
+                    <ul class="list-dashes">
+                      <li></li>
+
+                      <li></li>
+
+                      <li></li>
+                    </ul>
+                    <!-- /.list-dashes -->
+                  </li>
+                  <!-- /.slide -->
+
+                  <li class="slide slide4">
+                    <h3>Weatherford</h3>
+
+                    <p>Some Content</p>
+
+                    <ul class="list-dashes">
+                      <li></li>
+
+                      <li></li>
+
+                      <li></li>
+                    </ul>
+                    <!-- /.list-dashes -->
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="row8 row" id="experience" style="display: none;">
               <div class="col-lg-6 col-md-12">
                 <section class="section-benefits animated animated-left">
                   <div class="shell">

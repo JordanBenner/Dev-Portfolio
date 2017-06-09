@@ -184,6 +184,12 @@ h1, .cover-heading {
   flex-direction: column;
   padding: 0;
 }
+@media (max-width: 360px){
+  .row1 .col-lg-12 {
+    margin: 0;
+  }
+}
+
 
 
 /*
@@ -393,7 +399,7 @@ p, .section-head {
   justify-content: center;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 330px) {
   .code-cover > div {
     display: flex;
   }
@@ -493,7 +499,7 @@ p, .section-head {
 }
 @media (max-width: 1540px) {
   .header-compact {
-    padding: 10px 0;
+    padding: 0;
   }
 }
 .nav-trigger span:nth-child(2) {

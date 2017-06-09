@@ -12,6 +12,11 @@
 .intro-title strong {
   display: block;
 }
+@media (max-width: 992px){
+  .intro-title strong{
+    margin-left: -130px;
+  }
+}
 
 @media (max-width: 1540px) {
   h1 {

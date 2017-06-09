@@ -7,6 +7,18 @@ $(window).scroll(function (event) {
   } else {
     $('.header-compact').removeClass('transparent');
   }
+
+
+  var h = $(window).height();
+  var offset1 = $('iframe.frame1').offset();
+  if (scrollPos > offset1.top + 400 || scrollPos < offset1.top - h) {
+    $('.code-cover.cover1 > div').css('display', 'flex');
+  }
+
+  var offset2 = $('iframe.frame2').offset();
+  if (scrollPos > offset2.top + 400 || scrollPos < offset2.top - h) {
+    $('.code-cover.cover2 > div').css('display', 'flex');
+  }
 });
 // header about me text//
 // document.addEventListener("DOMContentLoaded", function(){
@@ -60,7 +72,7 @@ function show_slide (event, slide) {
   });
 }
 
-function show_code (event) {
+function show_code (event, cover) {
   event.preventDefault();
-  $('.code-cover').css('display', 'none');
+  $('.code-cover.' + cover + '> div').css('display', 'none');
 }

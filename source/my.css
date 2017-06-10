@@ -185,32 +185,11 @@ h1, .cover-heading {
   padding-bottom: 90px
 }
 
-@media (max-width: 992px) {
-  .row2 .col-lg-12>div, .row4>div {
-    margin: 0;
-  }
-}
-
-@media (max-width: 768px) {
-  .row2 .col-lg-12>div, .row4>div {
-    margin-left: 0;
-  }
-  .floaty {
-    display: none;
-  }
-}
-
 .row5 .col-lg-12>div {
   background-color: #a4977d;
   ;
   margin: 0 50px 0 0;
   z-index: 10;
-}
-
-@media (max-width: 992px) {
-  .row5 .col-lg-12>div {
-    margin: 0;
-  }
 }
 
 .row5 h2 {
@@ -237,13 +216,7 @@ h1, .cover-heading {
   z-index: 11;
 }
 
-@media (max-width: 992px) {
-  .floaty8 {
-    display: none;
-  }
-}
 
-.floaty7 {}
 
 h2, .section-head {
   position: relative;

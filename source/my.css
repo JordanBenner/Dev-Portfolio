@@ -144,27 +144,6 @@ h1, .cover-heading {
   flex-direction: column;
   padding: 0;
 }
-@media (max-width: 360px){
-  .row1 .col-lg-12 {
-    margin: 0;
-  }
-}
-
-
-
-/*
-@media (max-width: 900px) {
-  .intro-image {
-    background-position: -550px, center;
-  }
-}
-
-@media (max-width:  600px) {
-  .intro-image {
-    background-position: -750px, center;
-  }
-}
-*/
 
 .intro-content {
   position: relative;

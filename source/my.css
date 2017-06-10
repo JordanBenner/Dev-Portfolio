@@ -891,18 +891,19 @@ li {
   letter-spacing: .02em;
 }
 
-
 .row8-image {
   width: 50%;
   padding-bottom: 30px;
   float: right;
 }
+
 .row9.row {
   position: relative;
   display: block;
   height: 395px;
   margin: 0;
 }
+
 .parrallax {
   background-image: url('../images/footer_img.jpg');
   height: 395px;
@@ -911,10 +912,12 @@ li {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .footer {
   color: #ece9e1;
   padding-top: 136px;
 }
+
 .socials-bottom {
   margin: 0 5px 0 0;
 }
@@ -933,6 +936,7 @@ li {
 .slides h3{
   color:white;
 }
+
  .row8a h5.title{
   text-align: left;
   margin: 20px 0 60px 300px;

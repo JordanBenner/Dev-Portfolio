@@ -253,6 +253,7 @@ p, .section-head {
  .slider-clip{
    color: white;
  }
+
 .floaty2 {
   height: 59px;
   background-color: #a4977d;
@@ -925,7 +926,7 @@ li {
 .socials-bottom ul {
   list-style-type: none;
   margin: 10px 0 20px 0;
-  padding: 0;
+  padding: 0
 }
 
 .socials-bottom ul li {

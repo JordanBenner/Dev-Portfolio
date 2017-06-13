@@ -137,6 +137,7 @@ h1, .cover-heading {
   left: 200px;
   top: 70px;
   color: #a4977d;
+  font-family: 'Roboto Mono',sans-serif;
 }
 
 .row1 .col-lg-12 {
@@ -197,7 +198,6 @@ h1, .cover-heading {
 .row5 h2 {
   margin: 0;
   margin-top: 100px;
-  margin-bottom: 146px;
 }
 
 .floaty4 {
@@ -231,7 +231,8 @@ h2, .section-head {
 p, .section-head {
   font-family: 'Roboto Mono', sans-serif;
   color: black;
-  margin-bottom: 110px;
+  margin: 0;
+  padding: 45px;
 }
 
 .row3 {
@@ -916,6 +917,7 @@ ul.slides .slide:first-child {
 
 h3 {
   font-size: 35px;
+  font-weight: 300px;
   line-height: 1.43;
   margin: 0px 0 50px;
 }
@@ -942,6 +944,7 @@ li {
 
 .list-dashes li+li {
   margin-top: 10px;
+  font-family: 'Roboto Mono',sans-serif;
 }
 
 .list-dashes li {
@@ -999,8 +1002,10 @@ li {
  .row8a h5.title{
   text-align: left;
   margin: 20px 0 60px 300px;
+  font-family: 'Roboto Mono',sans-serif;
 }
 
 .row8a p {
   color: white;
+  font-family: 'Roboto Mono',sans-serif;
 }

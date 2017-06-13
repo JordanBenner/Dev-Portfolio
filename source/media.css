@@ -60,7 +60,12 @@
     margin-top: 0px;
   }
 }
-
+@media (max-width: 992px){
+  .row8a h5.title{
+     text-align: center;
+     margin: 20px 0 60px 0;
+ }
+}
 @media (max-width: 360px){
   .row1 .col-lg-12 {
     margin: 0;
@@ -126,10 +131,14 @@
 
 @media (max-width: 992px){
   .slide-nav .slide {
-    margin: 0 10px;
+    margin: 0 1px;
   }
   .slide-nav-wrapper {
     padding:0;
+  }
+
+  .slide-nav .moving {
+    margin: 0 1px;
   }
 }
 

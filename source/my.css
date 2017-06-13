@@ -807,7 +807,7 @@ img {
 
 .row8a {
   background-color: #a4977d;
-  margin: 550px 0 0 50px;
+  margin: 610px 0 0 50px;
   padding: 90px 0;
 }
 
@@ -917,7 +917,7 @@ ul.slides .slide:first-child {
 
 h3 {
   font-size: 35px;
-  font-weight: 300px;
+  font-weight: 300;
   line-height: 1.43;
   margin: 0px 0 50px;
 }

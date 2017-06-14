@@ -575,7 +575,7 @@ h3 {
 }
 
 .list-dashes-alt li:before {
-  background: #000;
+  background: #b3a06c;
   background-image: initial;
   background-position-x: initial;
   background-position-y: initial;
@@ -585,7 +585,7 @@ h3 {
   background-attachment: initial;
   background-origin: initial;
   background-clip: initial;
-  background-color: rgb(0, 0, 0);
+  background-color: #b3a06c;
 }
 
 [class^="list-"] {
@@ -650,6 +650,10 @@ h3 {
   text-decoration: none;
   padding: 30px;
   font-size: 20px
+}
+
+.nav .socials li a {
+  padding: 15px;
 }
 
 .sidebar-actions {
@@ -951,6 +955,10 @@ li {
   position: relative;
   padding-left: 40px;
   letter-spacing: .02em;
+}
+
+.list-dashes li::before {
+  color: red;
 }
 
 .row8-image {

@@ -436,9 +436,6 @@ p, .section-head {
   font-family: 'Roboto Mono', sans-serif;
   font-size: 14px;
   text-transform: uppercase;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
   transition: background 1s, color 1s, border-color 1s;
 }
 
@@ -506,7 +503,7 @@ p, .section-head {
 }
 
 p {
-  margin-bottom: 4em;
+  margin-bottom: 4;
 }
 
 h3 {
@@ -923,7 +920,7 @@ h3 {
   font-size: 35px;
   font-weight: 300;
   line-height: 1.43;
-  margin: 0px 0 50px;
+  margin: 50px 0 -18px;
 }
 
 .section-benefits .section-content p {

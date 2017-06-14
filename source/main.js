@@ -30,7 +30,7 @@ $(window).scroll(function (event) {
 
   $(function(){
 		$(".intro-entry").typed({
-			strings: ["I have a Deep love building things.", "Pilot, Aviation Enthusiast.", "Avid college football fan."],
+			strings: [" I am dynamic and able to wear many hats.", "I have a Deep love building things.", "Pilot, Aviation Enthusiast.", "Avid college football fan."],
 			typeSpeed: 0,
       loop: true,
       showCursor: true,

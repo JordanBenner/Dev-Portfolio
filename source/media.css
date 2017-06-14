@@ -140,6 +140,14 @@
   .slide-nav .moving {
     margin: 0 1px;
   }
+
+  .kodachrome {
+    width: calc(100% - 40px);
+  }
+
+  .row4 .col-lg-6>div {
+    margin: 0 0 0 0;
+  }
 }
 
 @media (min-width: 1541px) {

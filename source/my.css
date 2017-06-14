@@ -247,7 +247,7 @@ p, .section-head {
   width: calc(100% -40px);
   height: 400px;
   display: block;
-  margin: 0 20px
+  margin: 0 20px;
 }
 
 .blackjack>span {

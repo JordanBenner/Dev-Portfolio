@@ -234,7 +234,12 @@ p, .section-head {
   padding: 45px;
 }
 
-
+.row3 {
+  margin: 0 50px 0 0;
+  background-color: #a4977d;
+  z-index: 2;
+  padding: 88px 6px;
+}
 
 .blackjack {
   background-image: url(/images/pr1.png);

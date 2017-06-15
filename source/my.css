@@ -242,7 +242,7 @@ p, .section-head {
 }
 
 .blackjack {
-  background-image: url(/images/pr1.png);
+  background-image: url(../images/pr1.png);
   background-size: cover;
   width: calc(100% -40px);
   height: 400px;

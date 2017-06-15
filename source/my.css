@@ -260,7 +260,7 @@ p, .section-head {
 }
 
 .kodachrome {
-  background-image: url(/images/pr2.png);
+  background-image: url(../images/pr2.png);
   background-size: cover;
   width: calc(100% - 20px);
   height: 400px;

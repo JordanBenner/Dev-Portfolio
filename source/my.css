@@ -106,10 +106,18 @@ ul.widgets {
 .row7 {
   display: flex;
   max-width: 100%;
-  flex-direction: column;
+  flex-direction: row;
   padding: 90px 0 0 0;
   background-color: #ece9e1;
   margin-right: 50px;
+}
+
+.row7 h3 {
+  margin: 0;
+}
+
+.row7 .row8-image {
+  float: none;
 }
 
 .row8 {

@@ -117,3 +117,4 @@ function parallax(){
    requestAnimationFrame(parallax);
 
   }
+window.addEventListener("scroll", onScroll, false);

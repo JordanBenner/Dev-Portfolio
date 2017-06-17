@@ -1025,17 +1025,6 @@ li {
   font-family: 'Roboto Mono',sans-serif;
 }
 
-#hp-top-banner {
-  background: url(bg.png);
-  height: 600px;
-  background-attachment: fixed;
-  background-origin: initial;
-  background-clip: initial;
-  background-size: cover;
-  overflow: hidden;
-  width: 100%;
-  position: relative;
-}
 
 #hp-water-line {
   background: url(water-line.png) no-repeat transparent;

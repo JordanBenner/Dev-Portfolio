@@ -84,37 +84,3 @@ frmvalidator.addValidation("name","req","Please provide your name");
 frmvalidator.addValidation("email","req","Please provide your email");
 frmvalidator.addValidation("email","email",
   "Please enter a valid email address");
-
-//
-
-  var requestAnimationFrame = window.requestAnimationFrame ||
-      window.mozRequestAnimationFrame ||
-      window.webkitRequestAnimationFrame ||
-      window.msRequestAnimationFrame ||
-      window.oRequestAnimationFrame;
-
-      function onScroll() {
-    requestAnimationFrame(parallax);
-}
-
-function parallax(){
-    var prlx_effect_1= +(window.pageYOffset *.7).toFixed(2); // .55 is a good speed but slow
-    var prlx_str_1 = "translate3d(0, "+prlx_effect_1+"px, 0)";
-    jQ('.prlx-1').css({
-        "transform":prlx_str_1,
-        "-ms-transform":prlx_str_1,
-        "-webkit-transform":prlx_str_1
-    });
-
-    var prlx_effect_2= +(window.pageYOffset * 1 ).toFixed(2); // .33 is a good speed but slow
-   var prlx_str_2 = "translate3d(0, "+prlx_effect_2+"px, 0)";
-   jQ('.prlx-2').css({
-       "transform":prlx_str_2,
-       "-ms-transform":prlx_str_2,
-       "-webkit-transform":prlx_str_2
-   });
-
-   requestAnimationFrame(parallax);
-
-  }
-window.addEventListener("scroll", onScroll, false);

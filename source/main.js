@@ -96,3 +96,12 @@ frmvalidator.addValidation("email","email",
       function onScroll() {
     requestAnimationFrame(parallax);
 }
+
+function parallax(){
+    var prlx_effect_1= +(window.pageYOffset *.7).toFixed(2); // .55 is a good speed but slow
+    var prlx_str_1 = "translate3d(0, "+prlx_effect_1+"px, 0)";
+    jQ('.prlx-1').css({
+        "transform":prlx_str_1,
+        "-ms-transform":prlx_str_1,
+        "-webkit-transform":prlx_str_1
+    });

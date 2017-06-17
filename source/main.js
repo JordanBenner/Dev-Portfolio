@@ -105,3 +105,11 @@ function parallax(){
         "-ms-transform":prlx_str_1,
         "-webkit-transform":prlx_str_1
     });
+
+    var prlx_effect_2= +(window.pageYOffset * 1 ).toFixed(2); // .33 is a good speed but slow
+   var prlx_str_2 = "translate3d(0, "+prlx_effect_2+"px, 0)";
+   jQ('.prlx-2').css({
+       "transform":prlx_str_2,
+       "-ms-transform":prlx_str_2,
+       "-webkit-transform":prlx_str_2
+   });

@@ -113,3 +113,7 @@ function parallax(){
        "-ms-transform":prlx_str_2,
        "-webkit-transform":prlx_str_2
    });
+
+   requestAnimationFrame(parallax);
+
+  }

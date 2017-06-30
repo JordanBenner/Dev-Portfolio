@@ -42,31 +42,52 @@ ul.widgets {
   height: 42px;
 }
 
-.typed-cursor{
+.typed-cursor {
   display: inline-block;
   font-size: 20px;
 }
 
-.typed-cursor{
-	opacity: 1;
-	-webkit-animation: blink 0.7s infinite;
-	-moz-animation: blink 0.7s infinite;
-	animation: blink 0.7s infinite;
+.typed-cursor {
+  opacity: 1;
+  -webkit-animation: blink 0.7s infinite;
+  -moz-animation: blink 0.7s infinite;
+  animation: blink 0.7s infinite;
 }
-@keyframes blink{
-	0% { opacity:1; }
-	50% { opacity:0; }
-	100% { opacity:1; }
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
-@-webkit-keyframes blink{
-	0% { opacity:1; }
-	50% { opacity:0; }
-	100% { opacity:1; }
+
+@-webkit-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
-@-moz-keyframes blink{
-	0% { opacity:1; }
-	50% { opacity:0; }
-	100% { opacity:1; }
+
+@-moz-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .intro-image {
@@ -145,7 +166,7 @@ h1, .cover-heading {
   left: 200px;
   top: 70px;
   color: #a4977d;
-  font-family: 'Roboto Mono',sans-serif;
+  font-family: 'Roboto Mono', sans-serif;
 }
 
 .row1 .col-lg-12 {
@@ -249,6 +270,15 @@ p, .section-head {
   padding: 88px 6px;
 }
 
+.scorehoard {
+  background-image: url(../images/scorehoard-project.png);
+  background-size: cover;
+  width: calc(100% -40px);
+  height: 400px;
+  display: block;
+  margin: 0 20px;
+}
+
 .blackjack {
   background-image: url(../images/pr1.png);
   background-size: cover;
@@ -276,7 +306,7 @@ p, .section-head {
   margin-left: 20px;
 }
 
-.kodachrome>span {
+.kodachrome>span, .scorehoard > span {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -289,7 +319,7 @@ p, .section-head {
   position: relative;
 }
 
-.code-cover > div {
+.code-cover>div {
   display: none;
   position: absolute;
   background-color: rgba(0, 0, 0, .6);
@@ -300,9 +330,9 @@ p, .section-head {
   justify-content: center;
 }
 
- .slider-clip{
-   color: white;
- }
+.slider-clip {
+  color: white;
+}
 
 .floaty2 {
   height: 59px;
@@ -341,7 +371,9 @@ p, .section-head {
   width: calc(100% - 50px);
 }
 
+
 /*the back ground color on header when scrolling*/
+
 .header .logo {
   float: left;
 }
@@ -390,7 +422,9 @@ p, .section-head {
   padding: 10px;
 }
 
+
 /* nav bar*/
+
 .header-actions {
   float: right;
 }
@@ -604,7 +638,9 @@ h3 {
   box-sizing: border-box;
 }
 
+
 /*side bar menu*/
+
 .sidebar-outer {
   position: fixed;
   z-index: 100;
@@ -773,7 +809,9 @@ img {
   vertical-align: middle;
 }
 
+
 /*experience slide*/
+
 .section-benefits .section-content {
   padding: 76px 80px 20px;
   min-height: 589px;
@@ -954,7 +992,7 @@ li {
 
 .list-dashes li+li {
   margin-top: 10px;
-  font-family: 'Roboto Mono',sans-serif;
+  font-family: 'Roboto Mono', sans-serif;
 }
 
 .list-dashes li {
@@ -1009,18 +1047,17 @@ li {
   margin: 0 20px;
 }
 
-.slides h3{
-  color:white;
+.slides h3 {
+  color: white;
 }
 
- .row8a h5.title{
+.row8a h5.title {
   text-align: left;
   margin: 20px 0 60px 300px;
-  font-family: 'Roboto Mono',sans-serif;
-
+  font-family: 'Roboto Mono', sans-serif;
 }
 
 .row8a p {
   color: white;
-  font-family: 'Roboto Mono',sans-serif;
+  font-family: 'Roboto Mono', sans-serif;
 }

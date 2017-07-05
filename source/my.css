@@ -209,6 +209,14 @@ h1, .cover-heading {
   padding: 0;
   background-color: white;
 }
+.row2 .col-lg-6 {
+  display: flex;
+  max-width: 100%;
+  margin: auto;
+  flex-direction: column;
+  padding: 0;
+  background-color: white;
+}
 
 .row2 .col-lg-12>div, .row4>div {
   background-color: #ece9e1;
@@ -220,6 +228,11 @@ h1, .cover-heading {
   color: black;
   font-size: 5em;
   display: flex;justify-content: center;
+  flex-wrap: wrap;
+}
+
+.tech > i {
+  margin: 0 20px 40px 20px;
 }
 
 .row5 .col-lg-12>div {

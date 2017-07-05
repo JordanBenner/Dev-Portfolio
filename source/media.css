@@ -94,9 +94,15 @@
 }
 @media (max-width: 1340px){
   .tech{
+    font-size: 60px;
+  }
+}
+@media (max-width: 1288px){
+  .tech{
     font-size: 3em;
   }
 }
+
 
 @media (max-width: 970px){
   .tech{

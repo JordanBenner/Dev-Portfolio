@@ -216,6 +216,10 @@ h1, .cover-heading {
   z-index: 10;
   padding-bottom: 90px
 }
+.tech{
+  color: black;
+  font-size: 5em;
+}
 
 .row5 .col-lg-12>div {
   background-color: #a4977d;

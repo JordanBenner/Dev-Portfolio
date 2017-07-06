@@ -255,6 +255,23 @@ h1, .cover-heading {
   z-index: 11;
 }
 
+.row-header {
+  width: 100%
+}
+
+.row-header h2 {
+  margin: 10px 0;
+}
+
+.row-header p {
+  margin: 10px 0;
+  padding: 0;
+}
+
+.sh-title{
+  color: white;
+}
+
 .floaty8 {
   height: 59px;
   background-color: #ece9e1;
@@ -285,7 +302,17 @@ p, .section-head {
   margin: 0 50px 0 0;
   background-color: #a4977d;
   z-index: 2;
-  padding: 88px 6px;
+  padding: 0 6px 88px 6px;;
+}
+.row3 .row-header h2{
+  color: white;
+}
+.row3 .row-header p{
+  color: white;
+}
+
+.row5 h2.section-head {
+  color: white;
 }
 
 .scorehoard {
@@ -1015,8 +1042,13 @@ li {
 
 .list-dashes li {
   position: relative;
-  padding-left: 40px;
+  padding-left: 101px;
   letter-spacing: .02em;
+  text-align: left;
+}
+
+.row8a .list-dashes li {
+  max-width: calc(50% - 30px);
 }
 
 .list-dashes li::before {

@@ -1049,6 +1049,7 @@ li {
 
 .row8a .list-dashes li {
   max-width: calc(50% - 30px);
+  color: white;
 }
 
 .list-dashes li::before {

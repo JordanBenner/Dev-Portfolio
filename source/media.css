@@ -85,6 +85,19 @@
   .floaty {
     display: none;
   }
+
+  .list-dashes li:before {
+    left: -15px;
+  }
+
+  .row8a .list-dashes li{
+    max-width: calc(100% - 30px);
+  }
+
+  .list-dashes li {
+    padding-left: 40px;
+  }
+
 }
 
 @media (max-width: 1660px) {
@@ -106,7 +119,7 @@
 
 @media (max-width: 970px){
   .tech{
-    
+
   }
 }
 
@@ -213,5 +226,11 @@
 @media (min-width: 1541px) {
   .list-dashes {
     font-size: 17px;
+  }
+}
+
+@media (max-width: 998px){
+  .row-header h2{
+    margin: 60px 0 0 0;
   }
 }

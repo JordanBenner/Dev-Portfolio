@@ -260,7 +260,7 @@ h1, .cover-heading {
 }
 
 .row-header h2 {
-  margin: 10px 0;
+  margin: 30px 0;
 }
 
 .row-header p {
@@ -323,6 +323,14 @@ p, .section-head {
   display: block;
   margin: 0 20px;
 }
+.nodecode{
+  background-image: url(../images/nodecode.png);
+  background-size: cover;
+  width: calc(100% -40px);
+  height: 400px;
+  display: block;
+  margin: 0 20px;
+}
 
 .blackjack {
   background-image: url(../images/pr1.png);
@@ -333,7 +341,16 @@ p, .section-head {
   margin: 0 20px;
 }
 
-.blackjack>span {
+.blackjackcode{
+  background-image: url(../images/jquerycode.png);
+  background-size: cover;
+  width: calc(100% -40px);
+  height: 400px;
+  display: block;
+  margin: 0 20px;
+}
+
+.blackjack>span, .blackjackcode>span, .nodecode>span{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -350,8 +367,41 @@ p, .section-head {
   display: block;
   margin-left: 20px;
 }
+.djangocode {
+  background-image: url(../images/djangocode.png);
+  background-size: cover;
+  width: calc(100% - 20px);
+  height: 400px;
+  display: block;
+  margin-left: 20px;
+}
 
-.kodachrome>span, .scorehoard > span {
+.kodachrome>span, .scorehoard > span, .djangocode>span{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .6);
+}
+
+.contacts{
+  background-image: url(../images/react-.png);
+  background-size: cover;
+  width: calc(100% - 20px);
+  height: 400px;
+  display: block;
+  margin-left: 20px;
+}
+.contactscode{
+  background-image: url(../images/reactcode.png);
+  background-size: cover;
+  width: calc(100% - 20px);
+  height: 400px;
+  display: block;
+  margin-left: 20px;
+}
+.contacts>span, .contactscode>span{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1050,6 +1100,10 @@ li {
 .row8a .list-dashes li {
   max-width: calc(50% - 30px);
   color: white;
+}
+
+.row8a .list-dashes li:before {
+  background-color: Black;
 }
 
 .list-dashes li::before {

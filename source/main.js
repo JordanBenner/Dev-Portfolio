@@ -20,17 +20,11 @@ $(window).scroll(function (event) {
     $('.code-cover.cover2 > div').css('display', 'flex');
   }
 });
-// header about me text//
-// document.addEventListener("DOMContentLoaded", function(){
-// 		Typed.new(".element", {
-// 			strings: ["First sentence.", "Second sentence."],
-// 			typeSpeed: 0
-// 		});
-// 	});
-
+  // type cursor
   $(function(){
 		$(".intro-entry").typed({
-			strings: [" I am dynamic and able to wear many hats.", "I have a Deep love building things.", "Pilot, Aviation Enthusiast.", "Avid college football fan."],
+			strings: ["When I am not coding I love to build computers and benchmark computer hardware",
+      "An avid Star Citizen player", "Pilot, Aviation Enthusiast.", "college football fan."],
 			typeSpeed: 0,
       loop: true,
       showCursor: true,

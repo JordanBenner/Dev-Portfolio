@@ -41,9 +41,9 @@
   }
 }
 
-@media (max-width: 992px) {
-  .row7 {
-    margin: 0;
+@media (max-width: 1090px) {
+  .row8a #experience{
+    padding-top: 100px;
   }
 }
 

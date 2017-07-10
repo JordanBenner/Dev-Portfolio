@@ -322,6 +322,7 @@ p, .section-head {
   height: 400px;
   display: block;
   margin: 0 20px;
+  background-position: center center;
 }
 .nodecode{
   background-image: url(../images/nodecode.png);
@@ -366,11 +367,12 @@ p, .section-head {
   height: 400px;
   display: block;
   margin-left: 20px;
+  background-position: center center;
 }
 .djangocode {
   background-image: url(../images/djangocode.png);
   background-size: cover;
-  width: calc(100% - 20px);
+  width: calc(100% - 40px);
   height: 400px;
   display: block;
   margin-left: 20px;
@@ -388,7 +390,7 @@ p, .section-head {
 .contacts{
   background-image: url(../images/react-.png);
   background-size: cover;
-  width: calc(100% - 20px);
+  width: calc(100% - 40px);
   height: 400px;
   display: block;
   margin-left: 20px;
@@ -396,7 +398,7 @@ p, .section-head {
 .contactscode{
   background-image: url(../images/reactcode.png);
   background-size: cover;
-  width: calc(100% - 20px);
+  width: calc(100% - 40px);
   height: 400px;
   display: block;
   margin-left: 20px;

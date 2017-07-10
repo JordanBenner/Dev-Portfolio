@@ -7,18 +7,6 @@ $(window).scroll(function (event) {
   } else {
     $('.header-compact').removeClass('transparent');
   }
-
-
-  var h = $(window).height();
-  var offset1 = $('iframe.frame1').offset();
-  if (scrollPos > offset1.top + 400 || scrollPos < offset1.top - h) {
-    $('.code-cover.cover1 > div').css('display', 'flex');
-  }
-
-  var offset2 = $('iframe.frame2').offset();
-  if (scrollPos > offset2.top + 400 || scrollPos < offset2.top - h) {
-    $('.code-cover.cover2 > div').css('display', 'flex');
-  }
 });
   // type cursor
   $(function(){
@@ -73,8 +61,8 @@ function show_code (event, cover) {
 
 //email form//
 
-var frmvalidator  = new Validator("contactform");
-frmvalidator.addValidation("name","req","Please provide your name");
-frmvalidator.addValidation("email","req","Please provide your email");
-frmvalidator.addValidation("email","email",
-  "Please enter a valid email address");
+// var frmvalidator  = new Validator("contactform");
+// frmvalidator.addValidation("name","req","Please provide your name");
+// frmvalidator.addValidation("email","req","Please provide your email");
+// frmvalidator.addValidation("email","email",
+//   "Please enter a valid email address");

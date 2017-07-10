@@ -42,8 +42,8 @@
 }
 
 @media (max-width: 1090px) {
-  .row8a #experience{
-    padding-top: 100px;
+  .row8a {
+    padding-top: 130px;
   }
 }
 

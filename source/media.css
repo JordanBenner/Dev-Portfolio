@@ -234,3 +234,9 @@
     margin: 60px 0 0 0;
   }
 }
+
+@media(max-width: 1065px){
+  .scoerhoard {
+    background-image: url(../images/scorehoard-project.png);
+  }
+}

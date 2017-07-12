@@ -139,6 +139,7 @@ ul.widgets {
 
 .row7 .row8-image {
   float: none;
+  padding-top: 190px;
 }
 
 .row8 {
@@ -265,7 +266,7 @@ h1, .cover-heading {
 
 .row-header p {
   margin: 10px 0;
-  padding: 0;
+  padding: 0 2px;
 }
 
 .sh-title{
@@ -1089,7 +1090,7 @@ li {
   text-align: -webkit-match-parent;
 }
 
-.list-dashes li+li {
+.list-dashes li {
   margin-top: 10px;
   font-family: 'Roboto Mono', sans-serif;
 }

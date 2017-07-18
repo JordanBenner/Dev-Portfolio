@@ -38,6 +38,7 @@
   .row7 {
     margin-top: 0;
     padding-top: 30px;
+    margin: 0;
   }
 }
 
@@ -240,3 +241,8 @@
     background-image: url(../images/scorehoard-project.png);
   }
 }
+/*@media(max-width: 992px){
+.row4 .col-lg-6{
+  border-top: 10px solid white;
+  }
+}*/

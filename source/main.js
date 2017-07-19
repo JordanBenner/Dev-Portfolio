@@ -12,7 +12,7 @@ $(window).scroll(function (event) {
   $(function(){
 		$(".intro-entry").typed({
 			strings: ["When I am not coding I love to build computers and benchmark computer hardware",
-      "An avid Star Citizen player", "Pilot, Aviation Enthusiast.", "College football fan."],
+      "An avid Star Citizen player", "Sim Pilot, Aviation Enthusiast.", "College football fan."],
 			typeSpeed: 0,
       loop: true,
       showCursor: true,

@@ -21,7 +21,7 @@ class App extends Component {
   constructor(props) {
     super(props);
 
-    this.full_nda = [];
+    this.full_nda = [/nda.docx];
     this.state = {
       show: this.filter(),
       showNda: ''
@@ -42,6 +42,6 @@ class App extends Component {
     this.full_nda.forEach(function (nda) {
       c.index = index;
       if (nda === true) {
-        return promt('Unable to view due to unfortunate restrictions!');
+        return promt('Unable to view due to unfortunate restrictions!')
       } else
       return prompt('Welcome Back Timbergrove, Please sign in.');

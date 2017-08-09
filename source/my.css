@@ -399,7 +399,7 @@ p, .section-head {
   margin-left: 20px;
 }
 .contactscode{
-  background-image: url(../images/reactcode.png);
+  background-image: url(../images/mockcode.png);
   background-size: cover;
   width: calc(100% - 40px);
   height: 400px;

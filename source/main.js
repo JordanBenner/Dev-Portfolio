@@ -11,7 +11,7 @@ $(window).scroll(function (event) {
   // type cursor
   $(function(){
 		$(".intro-entry").typed({
-			strings: ["When I am not coding I love to build computers and benchmark computer hardware.",
+			strings: ["When I am not designing web applications I love to build computers and benchmark computer hardware.",
       "An avid Star Citizen player and current alpha tester.", "Sim Pilot, Aviation Enthusiast.", "College football fan."],
 			typeSpeed: 0,
       loop: true,
